@@ -1,0 +1,544 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+}
+
+
+#pre-header {
+  background-image: linear-gradient(rgb(36, 32, 86), rgb(11, 9, 26));
+  height: 23px;
+
+  .number-icon-1 {
+    text-align: right;
+    color: white;
+    padding-right: 110px;
+
+    .phone {
+      padding-right: 35px;
+    }
+
+    ul li {
+      display: inline;
+
+      i {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+#navbar-small {
+
+  button {
+    background-color: #0b091a;
+  }
+
+  ul {
+    li {
+      a {
+        margin-top: 25px;
+        color: #5a5e61;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+
+#banner {
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#card {
+  margin-top: -320px;
+  background-color: transparent;
+  color: white;
+
+  h1 {
+    font-size: 90px;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .rem-card {
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 280px;
+    height: 380px;
+    background-image: linear-gradient(rgb(142, 204, 239), rgb(53, 123, 203));
+  }
+
+  .rep-card {
+    background-image: linear-gradient(rgb(51, 121, 202), rgb(26, 61, 103));
+    margin-left: 10px;
+    width: 280px;
+    height: 380px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .max-card {
+    background-image: linear-gradient(rgb(159, 158, 158), rgb(80, 80, 80));
+    margin-left: 10px;
+    width: 280px;
+    height: 380px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 70px;
+  }
+}
+
+#remence {
+  background-color: rgb(240, 240, 240);
+  padding-top: 102px;
+
+  .remence-con {
+    background-color: white;
+  }
+
+  .bg-light-blue-icon {
+    background-color: rgb(143, 205, 240);
+    height: 136px;
+    width: 180px;
+
+    h2 {
+      padding-top: 40px;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .remence-side-line {
+    color: rgb(52, 83, 120);
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 40px;
+  }
+
+  .remence-side-text {
+
+    h2 {
+      color: rgb(41, 37, 97);
+    }
+
+    margin-top: 30px;
+    border-left: 1px solid rgb(52, 83, 120);
+    height: 80px;
+  }
+
+  .side-line {
+    border-right: 1px solid rgb(52, 83, 120);
+    height: 100px;
+  }
+
+  .remence-text-top {
+    margin-top: 60px;
+  }
+
+  .remence-text {
+    color: rgb(90, 94, 97);
+
+    .remence-text-bold {
+
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .remence-gap-line {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgb(52, 83, 120);
+  }
+
+  .remence-yugo-text {
+    h2 {
+      color: rgb(41, 37, 97);
+    }
+
+    p {
+      color: rgb(90, 94, 97);
+    }
+  }
+
+  .remence-yugo-video {
+
+    iframe {
+      margin-bottom: 90px;
+      width: 560px;
+      height: 315px;
+    }
+  }
+}
+
+#repromag {
+  background-color: transparent;
+  padding-top: 102px;
+
+  .repromag-con {
+    background-color: rgb(240, 240, 240);
+  }
+
+  .bg-blue-icon {
+    background-color: rgb(41, 37, 97);
+    height: 136px;
+    width: 180px;
+
+    h2 {
+      padding-top: 40px;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .repromag-side-line {
+    color: rgb(52, 83, 120);
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 40px;
+  }
+
+  .repromag-side-text {
+    h2 {
+      color: rgb(41, 37, 97);
+    }
+
+    margin-top: 30px;
+    border-left: 1px solid rgb(52, 83, 120);
+    height: 80px;
+  }
+
+  .side-line {
+    border-right: 1px solid rgb(52, 83, 120);
+    height: 100px;
+  }
+
+  .repromag-text-top {
+    margin-top: 60px;
+  }
+
+  .repromag-text {
+    color: rgb(90, 94, 97);
+
+    .repromag-text-bold {
+
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .repromag-gap-line {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgb(52, 83, 120);
+  }
+
+  .repromag-yugo-text {
+
+    h2 {
+      color: rgb(41, 37, 97);
+    }
+
+    p {
+      color: rgb(90, 94, 97);
+    }
+  }
+
+  .repromag-yugo-video {
+
+    iframe {
+      margin-bottom: 90px;
+      width: 560px;
+      height: 315px;
+    }
+  }
+}
+
+
+#maxycle {
+  background-color: rgb(240, 240, 240);
+  padding-top: 102px;
+
+  .maxycle-con {
+    background-color: white;
+  }
+
+  .bg-silver-icon {
+    background-color: rgb(65, 65, 65);
+    height: 136px;
+    width: 180px;
+
+    h2 {
+      padding-top: 40px;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .maxycle-side-line {
+
+    color: rgb(52, 83, 120);
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 40px;
+  }
+
+  .maxycle-side-text {
+    margin-top: 30px;
+    border-left: 1px solid rgb(52, 83, 120);
+    height: 80px;
+
+    h2 {
+      color: rgb(41, 37, 97);
+    }
+  }
+
+  .side-line {
+    border-right: 1px solid rgb(52, 83, 120);
+    height: 100px;
+  }
+
+  .maxy-text-top {
+    margin-top: 60px;
+  }
+
+  .maxy-text {
+    color: rgb(90, 94, 97);
+
+    .maxy-text-bold {
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .maxy-gap-line {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgb(52, 83, 120);
+  }
+
+  .maxy-yugo-text {
+
+    h2 {
+      color: rgb(41, 37, 97);
+    }
+
+    p {
+      color: rgb(90, 94, 97);
+    }
+  }
+
+  .maxy-yugo-video {
+
+    iframe {
+      margin-bottom: 90px;
+      width: 560px;
+      height: 315px;
+    }
+  }
+}
+
+#gap {
+  margin-top: 5px;
+  background-color: white;
+}
+
+#contact {
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 20px;
+
+  p {
+    color: rgb(69, 68, 68);
+    font-size: 12px;
+    padding-top: 50px;
+  }
+
+  img {
+    margin-top: 30px;
+    max-width: 145px;
+    max-height: 97px;
+  }
+}
+
+#footer {
+  height: 30px;
+  background-color: black;
+  color: rgb(69, 68, 68);
+  font-size: 12px;
+
+  .powered {
+    text-align: right;
+  }
+
+  .footer-p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.button {
+  float: right;
+  margin-top: 50px;
+
+  button {
+    background-color: #1a3d67;
+    color: white;
+    border: none;
+  }
+
+  .arrow-lm {
+    background-color: rgb(52, 122, 203);
+    color: white;
+    border: none;
+  }
+
+  i {
+
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+}
+
+@media screen and (min-width: 320px) {
+
+  #repromag {
+
+    h1 {
+      font-size: 2vw;
+    }
+
+    h2 {
+      font-size: 2vw;
+    }
+
+    h3 {
+      font-size: 3vw;
+    }
+  }
+  #remence {
+
+    h1 {
+      font-size: 2vw;
+    }
+
+    h2 {
+      font-size: 2vw;
+    }
+
+    h3 {
+      font-size: 3vw;
+    }
+  }
+  #maxycle {
+
+    h1 {
+      font-size: 2vw;
+    }
+
+    h2 {
+      font-size: 2vw;
+    }
+
+    h3 {
+      font-size: 3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1125px) {
+
+  #card {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  #card {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #card {
+    margin-top: 10px;
+  }
+  .remence-yugo-video {
+    margin-bottom: 90px;
+    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
+  }
+  .repromag-yugo-video {
+    margin-bottom: 90px;
+    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
+  }
+  .maxy-yugo-video {
+    margin-bottom: 90px;
+    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
+  }
+  .no-display {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  #navbar-small {
+
+    .no-display-logo {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  #card {
+    margin-top: 10px;
+  }
+  .remence-yugo-video {
+    margin-bottom: 90px;
+    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
+  }
+  .repromag-yugo-video {
+    margin-bottom: 90px;
+    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
+  }
+  .maxy-yugo-video {
+    margin-bottom: 90px;
+    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
+  }
+  .no-display-sm {
+    display: none;
+  }
+}
