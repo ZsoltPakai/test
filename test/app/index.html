@@ -2,8 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <title>test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no ">
+
+    <link rel="icon" href="Files/max_icon.png" type="image/gif" sizes="16x16">
+
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./sass/main.css">
@@ -13,12 +17,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-
 </head>
 
 <body>
-<section id="pre-header">
+<section class="pre-header">
     <div class="container">
         <div class="row">
             <div class="col-md-12 number-icon-1">
@@ -31,55 +33,32 @@
             </div>
         </div>
     </div>
-
-
 </section>
 
-<section id="navbar-small" class="no-display-big">
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <a class="navbar-brand no-display-logo" href="#"><img src="Files/logo.svg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Why SUSMAGPRO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Where to find us</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">News</a>
-
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Link 1</a>
-                        <a class="dropdown-item" href="#">Link 2</a>
-                        <a class="dropdown-item" href="#">Link 3</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">More info</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cities roadshow</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#">Get involved</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
-                </li>
-            </ul>
+<section class="navigationbar-max-rem-rep">
+    <div class="container">
+        <div class="row">
+            <div class="topnav" id="myTopnav">
+                <img src="Files/logo.svg" alt="">
+                <a href="#">Contact us</a>
+                <a href="#">Cities roadshow</a>
+                <a href="#">More info</a>
+                <a href="#">Events</a>
+                <div class="dropdown">
+                    <button class="dropbtn">News
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                </div>
+                <a href="#">Where to find us</a>
+                <a class="active" href="#">Why SUSMAGPRO</a>
+                <a href="javascript:void(0);" style="font-size:15px; color: #0b091a;" class="icon"
+                   onclick="myFunction()">&#9776;</a>
+            </div>
         </div>
-    </nav>
+    </div>
 </section>
 
-<section id="banner" class="no-display-sm">
+<section class="banner">
     <div id="demo" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -98,85 +77,65 @@
 <section id="card">
     <div class="container">
         <div class="row">
-            <div class="col-3 no-display-sm">
+            <div class="col no-display-card">
+            </div>
+            <div class=" col col-sm-auto rem-card">
+                <h2>REMENCE</h2>
+                <img src="Files/rem_icon.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur et d v adipiscing elit, sed do eiusmod tempor </p>
             </div>
 
-            <div class=" col-12 col-sm-12 col-md-2 rem-card">
-                <h3>REMENCE</h3>
-                <h1><i class="fa fa-tree"></i></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            <div class="col col-sm-auto rep-card">
+                <h2>REPROMAG</h2>
+                <img src="Files/rep_icon.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur et d v adipiscing elit, sed do eiusmod tempor </p>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-2 rep-card">
-                <h3>REPROMAG</h3>
-                <h1><i class="fa fa-star"></i></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            <div class="col col-sm-auto max-card">
+                <h2>MAXYCLE</h2>
+                <img src="Files/max_icon.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur et d v adipiscing elit, sed do eiusmod tempor </p>
             </div>
-
-            <div class="col-12 col-sm-12 col-md-2  max-card">
-                <h3>MAXYCLE</h3>
-                <h1><i class="fa fa-tint"></i></h1>
-                <p>Loremd ipsum dolor sidsft amet, consectetur adipiscing elit, sed do </p>
+            <div class="col no-display-card">
             </div>
-
-            <div class="col-md-3 no-display">
-
-            </div>
-
         </div>
     </div>
 </section>
 
-<section id="remence">
-
-    <div class="container remence-con">
-        <div class="row">
-            <div class="col-2 bg-light-blue-icon no-display-sm">
-                <h2><i class="fa fa-tree"></i></h2>
-            </div>
-            <div class="col-2 remence-side-line">
-                <h2>REMENCE</h2>
-            </div>
-
-            <div class="col-8 remence-side-text no-display-sm">
-                <h2>Efficient Production Route For Rare Earth Magnets</h2>
+<section class="remence">
+    <div class="remence-title">
+        <div class="container">
+            <div class="row bg-color-rem">
+                <div class=" col-12 col-sm-2 remence-logo">
+                    <img src="Files/remence_logo.png">
+                </div>
+                <div class="col-12 col-sm-12 col-xl-2 remence-title">
+                    <h1 class="">REMENCE</h1>
+                </div>
+                <div class="col-12 col-lg-12 col-xl-8 remence-side-text remence-border-left">
+                    <h3>Rare Earths play an important role in our daily lives.</h3>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container remence-text remence-text-top">
-        <div class="row">
-
-            <div class="col-md-2 remence-text-bold">
-                <p>Funding:</p>
-            </div>
-            <div class="col-md-10 ">
-                <p>Lorem ipsum sit amet</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container remence-text ">
-        <div class="row">
-
-            <div class="col-2 remence-text-bold">
-                <p>Duration:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sitdf amet</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container remence-text">
-        <div class="row">
-            <div class="col-2 remence-text-bold">
-                <p>Coordinator:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sit amet</p>
+    <div class=" remence-text remence-text-top">
+        <div class="container">
+            <div class="row">
+                <table>
+                    <tr>
+                        <th>Founding:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                    <tr>
+                        <th>Duration:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                    <tr>
+                        <th>Coordinator:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
@@ -188,83 +147,69 @@
         </div>
     </div>
 
+    <div class="remence-video-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et d vemco laboris nisi ut Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore
+                        eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id
+                        est laborum.</p>
+                    <div class="button">
+                        <button class="learnmore-btn">Read more</button>
+                        <span class="arrow-btn "><i class="fa fa-caret-right"></i></span>
+                    </div>
+                </div>
 
-    <div class="container remence-yugo-text">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur elit</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    d vemco laboris nisi ut Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.</p>
-
-                <div class="button">
-                    <button>Learn more</button>
-                    <button class="arrow-lm"><i class="right"></i></button>
+                <div class="col-md-12  col-lg-6 remence-video ">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DKF5dKo_r_Y"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-12 remence-yugo-video">
-                <iframe src="https://www.youtube.com/embed/4CKVh3lNum0" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-            </div>
         </div>
     </div>
-
 </section>
 
-
-<section id="repromag">
-    <div class="container repromag-con">
-        <div class="row">
-            <div class="col-2 bg-blue-icon no-display-sm">
-                <h2><i class="fa fa-star" aria-hidden="true"></i></h2>
-            </div>
-            <div class="col-2 repromag-side-line">
-                <h2>REPROMAG</h2>
-            </div>
-
-            <div class="col-8 repromag-side-text no-display-sm">
-                <h2>Efficient Production Route For Rare Earth Magnets</h2>
+<section class="repromag">
+    <div class="repromag-title">
+        <div class="container">
+            <div class="row bg-color-rep">
+                <div class=" col-12 col-sm-2 repromag-logo">
+                    <img src="Files/repromag_logo.png">
+                </div>
+                <div class="col-12 col-sm-12 col-xl-2  repromag-title">
+                    <h1 class="">REPROMAG</h1>
+                </div>
+                <div class="col-12 col-lg-12 col-xl-8  repromag-side-text repromag-border-left">
+                    <h3>Rare Earths play an important role in our daily lives.</h3>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container repromag-text repromag-text-top">
-        <div class="row">
-
-            <div class="col-2 repromag-text-bold">
-                <p>Funding:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sit amet</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container repromag-text ">
-        <div class="row">
-
-            <div class="col-2 repromag-text-bold">
-                <p>Duration:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sit amet</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container repromag-text">
-        <div class="row">
-            <div class="col-2 repromag-text-bold">
-                <p>Coordinator:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sit amet</p>
+    <div class=" repromag-text repromag-text-top">
+        <div class="container">
+            <div class="row">
+                <table>
+                    <tr>
+                        <th>Founding:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                    <tr>
+                        <th>Duration:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                    <tr>
+                        <th>Coordinator:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
@@ -276,134 +221,123 @@
         </div>
     </div>
 
-
-    <div class="container repromag-yugo-text">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur elit</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    d vemco laboris nisi ut Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.</p>
-
-                <div class="button">
-                    <button>Learn more</button>
-                    <button class="arrow-lm"><i class="right"></i></button>
+    <div class="repromag-video-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  col-lg-6">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et d vemco laboris nisi ut Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore
+                        eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id
+                        est laborum.</p>
+                    <div class="button">
+                        <button class="learnmore-btn">Read more</button>
+                        <span class="arrow-btn "><i class="fa fa-caret-right"></i></span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-12 repromag-yugo-video">
-                <iframe src="https://www.youtube.com/embed/4CKVh3lNum0" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <div class="col-md-12  col-lg-6 repromag-video ">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DKF5dKo_r_Y"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-
-<section id="maxycle">
-    <div class="container maxycle-con">
-        <div class="row">
-            <div class="col-2 bg-silver-icon no-display-sm">
-                <h2><i class="fa fa-tree"></i></h2>
-            </div>
-            <div class="col-2 maxycle-side-line">
-                <h2>MAXYCLE</h2>
-            </div>
-
-            <div class="col-8 maxycle-side-text no-display-sm">
-                <h2>Efficient Production Route For Rare Earth Magnets</h2>
+<section class="maxycle">
+    <div class="maxycle-title">
+        <div class="container">
+            <div class="row bg-color-max">
+                <div class=" col-12 col-sm-2 maxycle-logo">
+                    <img src="Files/maxycle_logo.png">
+                </div>
+                <div class="col-12 col-sm-12 col-xl-2  maxycle-title">
+                    <h1 class="">MAXYCLE</h1>
+                </div>
+                <div class="col-12 col-lg-12 col-xl-8  maxycle-side-text maxycle-border-left">
+                    <h3>Rare Earths play an important role in our daily lives.</h3>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container maxy-text maxy-text-top">
-        <div class="row">
-
-            <div class="col-2 maxy-text-bold">
-                <p>Funding:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sit amet</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container maxy-text ">
-        <div class="row">
-
-            <div class="col-2 maxy-text-bold">
-                <p>Duration:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sit amet</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container maxy-text">
-        <div class="row">
-            <div class="col-2 maxy-text-bold">
-                <p>Coordinator:</p>
-            </div>
-            <div class="col-10 ">
-                <p>Lorem ipsum sit amet</p>
+    <div class="maxycle-text maxycle-text-top">
+        <div class="container">
+            <div class="row">
+                <table>
+                    <tr>
+                        <th>Founding:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                    <tr>
+                        <th>Duration:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                    <tr>
+                        <th>Coordinator:</th>
+                        <td>amet consectetur</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class=" maxy-gap-line">
+            <div class="col-12 maxycle-gap-line">
             </div>
         </div>
     </div>
 
-
-    <div class="container maxy-yugo-text">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur elit</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    d vemco laboris nisi ut Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.</p>
-
-                <div class="button">
-                    <button>Learn more</button>
-                    <button class="arrow-lm"><i class="right"></i></button>
+    <div class="maxycle-video-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  col-lg-6">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et d vemco laboris nisi ut Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore
+                        eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id
+                        est laborum.</p>
+                    <div class="button">
+                        <button class="learnmore-btn">Read more</button>
+                        <span class="arrow-btn "><i class="fa fa-caret-right"></i></span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-12 maxy-yugo-video">
-                <iframe src="https://www.youtube.com/embed/DKF5dKo_r_Y" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+
+                <div class=" col-md-12  col-lg-6 maxycle-video ">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DKF5dKo_r_Y"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<div id="gap"></div>
+<div class="gap"></div>
 
-<section id="contact">
+<section class="contact">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
-                <img src="Files/eu.png" alt="eu">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2">
+                <img src="Files/eu.png" alt="">
             </div>
-            <div class="col-md-2">
-                <img src="Files/subotica.jpg" alt="su">
+            <div class=" col-4 col-sm-4 col-md-4 col-lg-2">
+                <img src="Files/enterprise_eu.png" alt="">
             </div>
-            <div class="col-md-2">
-                <img src="Files/vojvodina.png" alt="vojvodina">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2">
+                <img src="Files/baden_pic.png" alt="">
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                 <p>Rare Earths play an important role in our daily lives, yet many of us do not know a lot about them.
                     Learn more about their function in everyday products and how they can be recycled and reused in a
                     circular economy.</p>
@@ -413,18 +347,54 @@
 </section>
 
 
-<section id="footer">
+<section class="pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <ul class="pre-footer-left">
+                    <li><a href="index.html">Datenschurlinen</a>
+                    </li>
+                    <li><a href="index.html">Coockie-Erklarung</a>
+                    </li>
+                    <li>
+                        <a href="index.html">impressum</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 ">
+                <ul class="contact-pre-footer">
+                    <li><i class="fa fa-facebook-square"></i></li>
+                    <li><i class="fa fa-twitter-square"></i></li>
+                    <li><i class="fa fa-linkedin-square"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
     <div class="container">
         <div class="row footer-p">
-            <div class="col-6 rights">
+            <div class="col-sm-12 col-md-6 rights">
                 <p>@2019 all rights reserved susmagpro gmbh</p>
             </div>
-            <div class="col-6 powered">
+            <div class="col-sm-12 col-md-6 powered">
                 <p>Powered by <a href="">StudioPresent</a></p>
             </div>
         </div>
     </div>
 </section>
 
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </body>
 </html>
